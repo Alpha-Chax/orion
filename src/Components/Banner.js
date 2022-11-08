@@ -1,7 +1,4 @@
 import React from 'react'
-import  './Styles/slider1.png'
-import  './Styles/slider2.png'
-import  './Styles/slider3.png'
 import './Styles/Banner.css'
 
 
