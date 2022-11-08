@@ -24,6 +24,8 @@ const Contact = () => {
       margin-right:0.5rem;
     }
 
+    
+
     iframe{
       margin-top:1rem;
     }
@@ -60,6 +62,7 @@ const Contact = () => {
       padding: 0.4rem 0.6rem;
       border-style: solid;
       border-width: .1rem;
+      border-radius:0.5rem;
       text-transform: uppercase;
       background-color:black;
       color:bisque;

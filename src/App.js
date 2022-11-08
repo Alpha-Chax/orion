@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar';
 import Products from './Components/Products';
 import Contact from './Components/Contact';
 import Cart from './Components/Cart';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <Route exact path="/contact" element={<Contact/>}/>
     <Route exact path="/cart" element={<Cart/>}/>
     </Routes>
+    <Footer/>
     </Router>
    </>
   );
