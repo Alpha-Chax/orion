@@ -23,6 +23,7 @@ const Footer = () => {
             </div>
           </div>
         </section>
+
         {/* footer section */}
 
         <footer className="footer">
@@ -202,8 +203,12 @@ const Wrapper = styled.section`
     }
   }
   @media (max-width:650px ) {
+    .footer{    
+        width:300vw;
+        
+    }
     .contact-short {
-      max-width: 80vw;
+      max-width: 100vw;
       margin: 4.8rem auto;
       transform: translateY(0%);
       text-align: center;
