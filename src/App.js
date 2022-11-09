@@ -11,6 +11,7 @@ import Products from './Components/Products';
 import Contact from './Components/Contact';
 import Cart from './Components/Cart';
 import Footer from './Components/Footer';
+import ErrorPage from './Components/ErrorPage';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
     <Route exact path="/products" element={<Products/>}/>
     <Route exact path="/contact" element={<Contact/>}/>
     <Route exact path="/cart" element={<Cart/>}/>
+    <Route path="*" element={<ErrorPage/>}/>
+
     </Routes>
     <Footer/>
     </Router>
