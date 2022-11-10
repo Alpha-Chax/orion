@@ -26,7 +26,6 @@ function App() {
     <Route exact path="/contact" element={<Contact/>}/>
     <Route exact path="/cart" element={<Cart/>}/>
     <Route path="*" element={<ErrorPage/>}/>
-
     </Routes>
     <Footer/>
     </Router>

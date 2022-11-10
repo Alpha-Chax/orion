@@ -49,7 +49,9 @@ const Footer = () => {
                   <FaInstagram className="icons" />
                 </div>
                 <div>
+                  <a href="https://www.linkedin.com/in/purav-kapoor/" target="_blank" rel="noreferrer">
                 <FaLinkedinIn className="icons"/>
+                  </a>
                 </div>
               </div>
             </div>
