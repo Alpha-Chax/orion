@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <Wrapper>
       <div className="container">
-        <div className="grid grid-three-column">
+        <div className="grid grid-three-column d-flex">
           <div className="services-1">
             <div>
               <TbTruckDelivery className="icon" />
@@ -120,5 +120,12 @@ const Wrapper = styled.section`
     background-color: black;
     color: lightcoral;
   }
+
+  @media (max-width:650px ){
+    .container{
+      display:none;
+    }
+  }
+
 `;
 export default Services;

@@ -206,7 +206,7 @@ const Wrapper = styled.section`
   }
   @media (max-width:650px ) {
     .footer{    
-        width:300vw;
+        display:none;
         
     }
     .contact-short {
@@ -227,6 +227,10 @@ const Wrapper = styled.section`
     
     .footer-bottom--section {
       padding-top: 4.8rem;
+    }
+
+    .section{
+      width:100%;
     }
   }
 `;

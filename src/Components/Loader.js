@@ -6,7 +6,7 @@ const Loader = () => {
   return (
     <>
       <div className="card h-100 col-md-4 my-2 text-center p-4">
-        <SkeletonTheme highlightColor='seashell'/>
+        <SkeletonTheme highlightColor="beige">
         <div className="card-img-top">
           <Skeleton height={250} width={350} duration={2}/>
         </div>
@@ -27,6 +27,7 @@ const Loader = () => {
             <Skeleton width={40} duration={2}/>
           </h6>
         </div>
+        </SkeletonTheme>
       </div>
     </>
   )
