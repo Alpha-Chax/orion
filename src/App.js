@@ -13,6 +13,8 @@ import Cart from './Components/Cart';
 import Footer from './Components/Footer';
 import ErrorPage from './Components/ErrorPage';
 import SingleProduct from './Components/SingleProduct';
+import ScrollToTop from './Components/ScrollToTop';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
     <>
     <Router>
     <Navbar/>
+    <ScrollToTop/>
     <Routes>
     <Route exact path="/" element={<Home/>}/> 
     <Route exact path="/about" element={<About/>}/>
