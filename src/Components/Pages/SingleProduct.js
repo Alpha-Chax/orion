@@ -21,7 +21,7 @@ const SingleProduct = () => {
   useEffect(() => {
     setTimeout(() => {
       getProduct();
-    },2000 );  
+    },1500 );  
     //eslint-disable-next-line
   }, []);
 
