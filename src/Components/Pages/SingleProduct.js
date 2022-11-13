@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import ShowProduct from "./ShowProduct";
-import SpLoader from "./SpLoader";
+import SpLoader from "../SpLoader";
 
 const SingleProduct = () => {
   const { id } = useParams();

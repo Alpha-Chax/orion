@@ -4,15 +4,15 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Home from './Components/Home'
-import About from './Components/About'
+import Home from './Components/Pages/Home'
+import About from './Components/Pages/About'
 import Navbar from './Components/Navbar';
-import Products from './Components/Products';
-import Contact from './Components/Contact';
+import Products from './Components/Pages/Products';
+import Contact from './Components/Pages/Contact';
 import Cart from './Components/Cart';
 import Footer from './Components/Footer';
 import ErrorPage from './Components/ErrorPage';
-import SingleProduct from './Components/SingleProduct';
+import SingleProduct from './Components/Pages/SingleProduct';
 import ScrollToTop from './Components/ScrollToTop';
 
 
