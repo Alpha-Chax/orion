@@ -47,6 +47,7 @@ const Products = () => {
                   price={element.price}
                   rating={element.rating}
                   category={element.category}
+                  id={element.id}
                 />
               </div>
             );
