@@ -12,7 +12,7 @@ import Contact from './Components/Pages/Contact';
 import Cart from './Components/Cart';
 import Footer from './Components/Footer';
 import ErrorPage from './Components/ErrorPage';
-import SingleProduct from './Components/Pages/SingleProduct';
+import SingleProduct from './Components/SingleProduct';
 import ScrollToTop from './Components/ScrollToTop';
 
 

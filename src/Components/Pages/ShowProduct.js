@@ -1,5 +1,4 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
 const ShowProduct = (props)=>{
       
     let {title, description, price, rating, category, images} = props;
@@ -16,8 +15,6 @@ const ShowProduct = (props)=>{
         </p>
         <h3 className="display-6 fw-bold my-4" >${price}</h3>
         <p className="lead" >{description}</p>
-        <button className="btn btn-outline-dark px-4 py-2">Add To Cart</button>
-        <NavLink className="btn btn-outline-dark ms-2 px-3 py-2" to="/cart">Go To Cart</NavLink>
     </div>
     </>
     )
